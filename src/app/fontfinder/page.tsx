@@ -1,4 +1,4 @@
-import ProjectLayout from "../projects/page";
+import ProjectLayout from "../projects/pagelayout";
 
 export default function FontFinder() {
     return(
