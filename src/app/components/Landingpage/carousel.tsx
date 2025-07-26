@@ -23,7 +23,11 @@ export default function Carousel() {
   return (
     <div className="relative w-full overflow-hidden text-neutral-500 py-8 bg-[#121212]">
 
-      <div className="absolute left-0 top-0 bottom-0 w-55 z-10 bg-gradient-to-r from-[#121212] to-transparent" />      
+      <motion.div 
+      initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+      whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+      transition={{ duration: 0.7 }}
+      className="absolute left-0 top-0 bottom-0 w-55 z-10 bg-gradient-to-r from-[#121212] to-transparent" />      
       <motion.div
         className="flex items-center"
         animate={{
@@ -42,8 +46,8 @@ export default function Carousel() {
             </span>
             {index < duplicatedTechStack.length - 1 && (
               <Sparkle 
-                className="mx-[1vw] text-[#FFF93D] opacity-75" 
-                size={70}
+                className="mx-[1vw] md:w-[6vw] w-[10vw] h-[10vw] text-[#FFF93D] opacity-75" 
+                
                 fill={"#FFF93D"}
               />
             )}

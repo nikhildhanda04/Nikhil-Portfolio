@@ -11,7 +11,7 @@ export default function Home() {
   return (
 
     <>
-    <div className="flex flex-col gap-[8vw] px-[20vw]">
+    <div className="flex flex-col gap-[7vw] px-[15vw]">
 
       <Hero />
       <Partition />

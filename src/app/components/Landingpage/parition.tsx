@@ -13,8 +13,7 @@ export default function Partition(){
         className='flex items-center justify-center'
         >
             <Sparkle 
-            width={80}
-            height={80}
+            className='w-[8vw] h-[8vw]'
             color={"#FFF93D"}
             fill={"#FFF93D"}
             />

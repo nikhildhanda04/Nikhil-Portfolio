@@ -38,7 +38,7 @@ export default function Experience(){
                 whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
                 transition={{ duration: 0.5 }}
                         className='flex flex-row items-center'>
-                            <div className='font-medium text-white text-[3vw]'>
+                            <div className='font-medium text-white text-[4vw]  md:text-[3vw]'>
                                 OSCode
                             </div>
                             <div className='w-[4.3vw] h-[4vw] ml-[1vw] relative'>
@@ -54,7 +54,7 @@ export default function Experience(){
                         initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
                 whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
                 transition={{ duration: 0.7 }}
-                        className='flex flex-col text-neutral-600 text-[1.6vw] font-medium'>
+                        className='flex flex-col text-neutral-600 text-[2vw] md:text-[1.6vw] font-medium'>
                             <div>
                                 Full Stack Dev
                             </div>
@@ -69,7 +69,7 @@ export default function Experience(){
                         whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
                         transition={{ duration: 0.8 }}
 
-                        className='text-white text-[1.1vw]'>
+                        className='text-white text-[1.7vw] md:text-[1.1vw]'>
                           <li className='mt-[vw]'>Designed and developed effective web solutions, delivering high-quality services to meet client requirements.</li>
                           <li className='mt-[2vw]'>Collaborated in cross-functional teams and participated in client meetings to ensure alignment with user needs and adherence to project deadlines.</li>
                           <li className='mt-[2vw]'>Worked closely with teams and attended client meetings to facilitate seamless project execution and client satisfaction.</li>
@@ -85,7 +85,7 @@ export default function Experience(){
                 whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
                 transition={{ duration: 0.5 }}
                         className='flex flex-row'>
-                            <div className='font-medium text-white text-[3vw]'>
+                            <div className='font-medium text-white text-[4vw] md:text-[3vw]'>
                                 WebsCarftMedia
                             </div>
                             <div className='text-white'>
@@ -97,7 +97,7 @@ export default function Experience(){
                         initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
                 whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
                 transition={{ duration: 0.6 }}
-                        className='flex flex-col gap-[] text-neutral-600 text-[1.6vw] font-medium'>
+                        className='flex flex-col gap-[] text-neutral-600 text-[2vw] md:text-[1.6vw] font-medium'>
                             <div>
                                 Front End Dev
                             </div>
@@ -108,9 +108,9 @@ export default function Experience(){
 
                         <motion.div 
                         initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
-                whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-                        className='text-white text-[1.1vw]'>
+                        whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
+                        transition={{ duration: 0.9,}}
+                        className='text-white text-[1.7vw] md:text-[1.1vw]'>
                             <li>Supported maintenance of 5+ websites, ensuring 100% uptime.</li>
                             <li className='mt-[2vw]'>Learned working in a time bound environment and meeting my deadlines on time. </li>
                             <li className='mt-[2vw]'>Gained experience on technologies like React, Tailwind, and Typescript.</li>

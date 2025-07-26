@@ -12,7 +12,7 @@ export default function Hero (){
             transition={{ duration: 0.7 }}
             className="font-[poppins]  text-[1.5vw] text-neutral-400 font-semibold"
             >
-                <span className='bg-neutral-800 px-8 py-3 rounded-full'>-THE EXPERTISE YOU NEED- </span><br />
+                <span className='bg-neutral-800 px-[3vw] py-[1.8vw] rounded-full'>-THE EXPERTISE YOU NEED- </span><br />
                 <span className="font-[bigShoulders] font-black text-[19vw] leading-[15vw] text-[#FFF93D]">
                     NIKHIL <br /> DHANDA
                 </span>
