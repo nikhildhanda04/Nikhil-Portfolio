@@ -145,7 +145,7 @@ export default function Projects(){
                 className='rounded-2xl object-cover '
                 />
             </div>
-            <div className='p-4 flex flex-row items-center gap-6'>
+            <div className='p-4 px-[7vw] flex flex-row items-center gap-6'>
                 <div className='flex flex-col'>
                 <div className='font-[poppins] text-[2vw] font-medium text-neutral-200 '>
                     MYOB
