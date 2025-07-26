@@ -17,7 +17,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Nikhil Dhanda Portfolio",
   description: "This is the Portfolio website of Nikhil Dhanda",
+  icons: {
+    icon: "/favicon.png",
+  }
 };
+
 
 
 
