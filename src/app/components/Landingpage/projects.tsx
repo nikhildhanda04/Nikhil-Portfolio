@@ -1,14 +1,22 @@
+'use client'
+
+import { motion } from 'framer-motion';
 import { MoveUpRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
+
 export default function Projects(){
     return(
         <>
-        <div className='flex flex-col '>
+        <div className='flex flex-col px-[4vw]'>
 
 
-            <div className="flex flex-row items-center gap-[6vw] px-[8vw]">
+            <motion.div
+            initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+                whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
+                transition={{ duration: 0.6 }}
+            className="flex flex-row items-center gap-[6vw] px-[8vw]">
                 <div className="font-[bigShoulders] text-[6vw]  font-bold text-[white] "> 
                     Projects
             </div>
@@ -20,12 +28,16 @@ export default function Projects(){
                     height={0}
                     />
                 </div>
-        </div>
+        </motion.div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-12 px-[4vw] mt-[4vw]'>
+        <div className='grid grid-cols-1 md:grid-cols-1 gap-[4vw] px-[4vw] mt-[4vw]'>
 
 
-        <div className='flex flex-col rounded-xl gap-[2vw] text-left bg-[#2B2B2B] p-7'>
+        <motion.div 
+        initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+                whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
+                transition={{ duration: 0.8}}
+        className='flex flex-col rounded-xl gap-[2vw] text-left bg-[#2B2B2B] py-[3vw]'>
             <div className='w-[38vw] h-[30vw] relative mx-auto'>
                 <Image 
                 src="/Upliftio.jpg"
@@ -34,7 +46,7 @@ export default function Projects(){
                 className='rounded-2xl object-cover '
                 />
             </div>
-            <div className='p-4 flex flex-row items-center gap-6'>
+            <div className='px-[3vw] flex flex-row items-center gap-6'>
                 <div className='flex flex-col'>
                 <div className='font-[poppins] text-[2vw] font-medium text-neutral-200 '>
                     Upliftio
@@ -52,9 +64,13 @@ export default function Projects(){
                 </div>
                 </Link>
             </div>
-        </div>
+        </motion.div>
 
-        <div className='flex flex-col rounded-xl gap-[2vw] text-left bg-[#2B2B2B] p-7'>
+        <motion.div 
+        initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+                whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
+                transition={{ duration: 0.8 }}
+        className='flex flex-col rounded-xl gap-[2vw] text-left bg-[#2B2B2B] p-7'>
             <div className='w-[38vw] h-[30vw] relative mx-auto'>
                 <Image 
                 src="/Roadmap.jpg"
@@ -81,9 +97,13 @@ export default function Projects(){
                 </div>
                 </Link>
             </div>
-        </div>
+        </motion.div>
 
-                <div className='flex flex-col rounded-xl gap-[2vw] text-left bg-[#2B2B2B] p-7'>
+                <motion.div 
+                initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+                whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
+                transition={{ duration: 0.8 }}
+                className='flex flex-col rounded-xl gap-[2vw] text-left bg-[#2B2B2B] p-7'>
             <div className='w-[38vw] h-[30vw] relative mx-auto'>
                 <Image 
                 src="/FontF.jpg"
@@ -110,9 +130,13 @@ export default function Projects(){
                 </div>
                 </Link>
             </div>
-        </div>
+        </motion.div>
 
-                <div className='flex flex-col rounded-xl gap-[2vw] text-left bg-[#2B2B2B] p-7'>
+                <motion.div 
+                initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+                whileInView={{ opacity: 1, y: 0 , filter: "blur(0px)" }}
+                transition={{ duration: 0.8, }}
+                className='flex flex-col rounded-xl gap-[2vw] text-left bg-[#2B2B2B] p-7'>
             <div className='w-[38vw] h-[30vw] relative mx-auto'>
                 <Image 
                 src="/Dashboard.jpg"
@@ -139,7 +163,7 @@ export default function Projects(){
                 </div>
                 </Link>
             </div>
-        </div>
+        </motion.div>
 
 
         </div>

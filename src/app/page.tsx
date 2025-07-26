@@ -4,7 +4,6 @@ import Scroll from "./components/Landingpage/scroll"
 import Carousel from "./components/Landingpage/carousel";
 import Experience from "./components/Landingpage/experience";
 import Projects from "./components/Landingpage/projects";
-import Time from "./components/Landingpage/time"
 import Education from "./components/Landingpage/education";
 import Footer from "./components/common/footer";
 
@@ -12,19 +11,18 @@ export default function Home() {
   return (
 
     <>
-    <div className="flex flex-col gap-[8vw]">
+    <div className="flex flex-col gap-[8vw] px-[20vw]">
 
       <Hero />
       <Partition />
       <Scroll />
       <Carousel />
       <Experience />
-      <Time />
       <Projects />
       <Education />
-      <Footer />
 
     </div>
+    <Footer />
     </>
   );
 }

@@ -1,7 +1,7 @@
 export default function Time() {
     return(
         <>
-        <div className="flex flex-col md:flex-row justify-between px-[15vw]">
+        <div className="flex flex-col md:flex-row justify-between ">
 
             <div className="flex flex-col text-[6vw] font-bold">
                 <div className="text-[#FFF93D] ">
